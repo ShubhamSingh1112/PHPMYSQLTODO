@@ -2,7 +2,7 @@
 Todo application created with PHP and MYSQL. 
 
 Installation
-Intalling bootstrap framework...
+Installing bootstrap framework...
 
 Prerequisites 
 Install xampp server.
