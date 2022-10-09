@@ -1,3 +1,5 @@
+Open for HACKTOBERFEST 2022
+
 # PHPMYSQLTODO
 Todo application created with PHP and MYSQL. 
 
