@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Bootstrap demo</title>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
    </head>
    <body>
       <?php require_once 'process.php'; ?>
@@ -50,8 +51,8 @@
             <tr>
                <td><?php echo $row['Task']; ?></td>
                <td>
-                  <a href="index.php?Edit=<?php echo $row['id']; ?>" class="btn btn-primary">Edit</a>
-                  <a href="process.php?Delete=<?php echo $row['id']; ?>" class="btn btn-danger">Delete</a>
+                  <a href="index.php?Edit=<?php echo $row['id']; ?>" class="btn btn-primary"><i class="bi bi-pencil-square"></i> Edit</a>
+                  <a href="process.php?Delete=<?php echo $row['id']; ?>" class="btn btn-danger"><i class="bi bi-trash"></i> Delete</a>
                </td>
             </tr>
             <?php endwhile; ?>
