@@ -1,3 +1,4 @@
+# main php code with backend
 <?php
 session_start();
 $mysqli = new mysqli('localhost', 'root', '', 'todo') or die(mysqli_error($mysqli));
