@@ -38,7 +38,7 @@
          $result = $mysqli->query("SELECT * FROM data") or die($mysqli->error);
          //print_r($result);
          ?>
-      <div class=" row justify-content-center">
+      <div class="row m-0">
          <table class="table table-striped">
             <thead class="thead-dark">
                <tr>
