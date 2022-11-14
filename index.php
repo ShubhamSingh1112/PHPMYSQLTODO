@@ -29,7 +29,7 @@
          </div>
       </div>
       <?php endif ?>
-      <div class="jumbotron" style="padding: 0px">
+      <div class="bg-secondary">
          <?php echo "Today is " . date("Y/m/d ") . date(" l ") . "<br>" ; ?>
       </div>
       <div class="container">
@@ -65,8 +65,8 @@
          	echo '</pre>';
          }
          ?>
-      <div class="container-fluid justify-content-center">
-         <div class=" row justify-content-center">
+      <div class="container-fluid">
+         <div class="row m-0">
             <h1>Todo List</h1>
          </div>
          <form action="process.php" method="POST">
