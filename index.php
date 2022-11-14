@@ -29,7 +29,7 @@
          </div>
       </div>
       <?php endif ?>
-      <div class="bg-secondary">
+      <div class="bg-secondary py-5 text-light">
          <?php echo "Today is " . date("Y/m/d ") . date(" l ") . "<br>" ; ?>
       </div>
       <div class="container">
