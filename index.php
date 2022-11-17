@@ -24,7 +24,7 @@
                <?php 
                   echo $_SESSION['message'];
                   unset($_SESSION['message']);
-                       ?>
+               ?>
             </div>
          </div>
       </div>
@@ -37,7 +37,7 @@
          $mysqli = new mysqli('localhost', 'root', '', 'todo') or die(mysqli_error($mysqli));
          $result = $mysqli->query("SELECT * FROM data") or die($mysqli->error);
          //print_r($result);
-         ?>
+       ?>
       <div class="row m-0">
          <table class="table table-striped">
             <thead class="thead-dark">
@@ -64,7 +64,7 @@
          	print_r($array);
          	echo '</pre>';
          }
-         ?>
+       ?>
       <div class="container-fluid">
          <div class="row m-0">
             <h1>Todo List</h1>
@@ -90,8 +90,7 @@
          	const toastLiveExample = document.getElementById('liveToast')
          	if (toastTrigger) {
          	  toastTrigger.addEventListener('click', () => {
-         	    const toast = new bootstrap.Toast(toastLiveExample)
-         
+         	    const toast = new bootstrap.Toast(toastLiveExample)         
          	    toast.show()
          	  })
          	}
